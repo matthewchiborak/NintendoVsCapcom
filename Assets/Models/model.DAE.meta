@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: 88bf7337aadce6a44ae0ea74ea6a68fb
+timeCreated: 1478655763
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _01_-_TransN
+    100002: _02_-_RotN
+    100004: _03_-_HipN
+    100006: _04_-_DoorN
+    100008: BlueFalcon_
+    100010: BlueFalcon_ 1
+    100012: BlueFalcon_ 2
+    100014: Cockpit_01_O_OBJ_O_SORTEACHNODE_
+    100016: Cockpit_02_O_OBJ_O_SORTEACHNODE_
+    100018: EnvironmentAmbientLight
+    100020: //RootNode
+    400000: _01_-_TransN
+    400002: _02_-_RotN
+    400004: _03_-_HipN
+    400006: _04_-_DoorN
+    400008: BlueFalcon_
+    400010: BlueFalcon_ 1
+    400012: BlueFalcon_ 2
+    400014: Cockpit_01_O_OBJ_O_SORTEACHNODE_
+    400016: Cockpit_02_O_OBJ_O_SORTEACHNODE_
+    400018: EnvironmentAmbientLight
+    400020: //RootNode
+    4300000: Cockpit_02_O_OBJ_O_SORTEACHNODE_
+    4300002: Cockpit_01_O_OBJ_O_SORTEACHNODE_
+    4300004: BlueFalcon_
+    4300006: BlueFalcon_
+    4300008: BlueFalcon_
+    9500000: //RootNode
+    13700000: BlueFalcon_
+    13700002: BlueFalcon_ 1
+    13700004: BlueFalcon_ 2
+    13700006: Cockpit_01_O_OBJ_O_SORTEACHNODE_
+    13700008: Cockpit_02_O_OBJ_O_SORTEACHNODE_
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

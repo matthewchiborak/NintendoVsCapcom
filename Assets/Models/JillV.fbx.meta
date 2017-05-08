@@ -1,0 +1,3235 @@
+fileFormatVersion: 2
+guid: df83332970141e64ebbbed7d3d21ae92
+timeCreated: 1479941539
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Camera
+    100006: Head
+    100008: Head_end
+    100010: //RootNode
+    100012: Lamp
+    100014: LeftAnkle
+    100016: LeftAnkle_end
+    100018: LeftElbow
+    100020: LeftHip
+    100022: LeftKnee
+    100024: LeftShoulder
+    100026: LeftWrist
+    100028: LeftWrist_end
+    100030: Mesh.003_Model22
+    100032: Mesh.009_Model28
+    100034: Mesh_Model18
+    100036: Mesh_Model18.001
+    100038: Mesh_Model18.002
+    100040: Mesh_Model18.003
+    100042: Mesh_Model18.004
+    100044: Mesh_Model18.005
+    100046: Mesh_Model18.006
+    100048: Mesh_Model18.007
+    100050: Mesh_Model18.008
+    100052: Mesh_Model18.009
+    100054: Mesh_Model18.010
+    100056: Mesh_Model18.011
+    100058: RightAnkle
+    100060: RightAnkle_end
+    100062: RightElbow
+    100064: RightHip
+    100066: RightKnee
+    100068: RightShoulder
+    100070: RightWrist
+    100072: RightWrist_end
+    100074: Root
+    400000: Armature
+    400002: Body
+    400004: Camera
+    400006: Head
+    400008: Head_end
+    400010: //RootNode
+    400012: Lamp
+    400014: LeftAnkle
+    400016: LeftAnkle_end
+    400018: LeftElbow
+    400020: LeftHip
+    400022: LeftKnee
+    400024: LeftShoulder
+    400026: LeftWrist
+    400028: LeftWrist_end
+    400030: Mesh.003_Model22
+    400032: Mesh.009_Model28
+    400034: Mesh_Model18
+    400036: Mesh_Model18.001
+    400038: Mesh_Model18.002
+    400040: Mesh_Model18.003
+    400042: Mesh_Model18.004
+    400044: Mesh_Model18.005
+    400046: Mesh_Model18.006
+    400048: Mesh_Model18.007
+    400050: Mesh_Model18.008
+    400052: Mesh_Model18.009
+    400054: Mesh_Model18.010
+    400056: Mesh_Model18.011
+    400058: RightAnkle
+    400060: RightAnkle_end
+    400062: RightElbow
+    400064: RightHip
+    400066: RightKnee
+    400068: RightShoulder
+    400070: RightWrist
+    400072: RightWrist_end
+    400074: Root
+    2300000: Mesh.003_Model22
+    2300002: Mesh.009_Model28
+    2300004: Mesh_Model18
+    2300006: Mesh_Model18.001
+    2300008: Mesh_Model18.002
+    2300010: Mesh_Model18.003
+    2300012: Mesh_Model18.004
+    2300014: Mesh_Model18.005
+    2300016: Mesh_Model18.006
+    2300018: Mesh_Model18.007
+    2300020: Mesh_Model18.008
+    2300022: Mesh_Model18.009
+    2300024: Mesh_Model18.010
+    2300026: Mesh_Model18.011
+    3300000: Mesh.003_Model22
+    3300002: Mesh.009_Model28
+    3300004: Mesh_Model18
+    3300006: Mesh_Model18.001
+    3300008: Mesh_Model18.002
+    3300010: Mesh_Model18.003
+    3300012: Mesh_Model18.004
+    3300014: Mesh_Model18.005
+    3300016: Mesh_Model18.006
+    3300018: Mesh_Model18.007
+    3300020: Mesh_Model18.008
+    3300022: Mesh_Model18.009
+    3300024: Mesh_Model18.010
+    3300026: Mesh_Model18.011
+    4300000: Mesh_Model18
+    4300002: Mesh_Model18.003
+    4300004: Mesh_Model18.004
+    4300006: Mesh.003_Model22
+    4300008: Mesh_Model18.001
+    4300010: Mesh_Model18.002
+    4300012: Mesh.009_Model28
+    4300014: Mesh_Model18.005
+    4300016: Mesh_Model18.006
+    4300018: Mesh_Model18.007
+    4300020: Mesh_Model18.008
+    4300022: Mesh_Model18.009
+    4300024: Mesh_Model18.010
+    4300026: Mesh_Model18.011
+    7400000: Armature|AirHeavy
+    7400002: Armature|AirLight
+    7400004: Armature|AirMedium
+    7400006: Armature|BackThrow
+    7400008: Armature|CrouchBlock
+    7400010: Armature|CrouchHeavy
+    7400012: Armature|CrouchHit
+    7400014: Armature|CrouchIdle
+    7400016: Armature|CrouchLight
+    7400018: Armature|CrouchLightf
+    7400020: Armature|CrouchMedium
+    7400022: Armature|ForwardThrow
+    7400024: Armature|Gas
+    7400026: Armature|Grab
+    7400028: Armature|Grenade
+    7400030: Armature|HardDown
+    7400032: Armature|Idle
+    7400034: Armature|Juggle
+    7400036: Armature|Jump
+    7400038: Armature|Launcher
+    7400040: Armature|StandBlock
+    7400042: Armature|StandHeavy
+    7400044: Armature|StandHit
+    7400046: Armature|StandLight
+    7400048: Armature|StandMedium
+    7400050: Armature|Super
+    7400052: Armature|WalkBack
+    7400054: Armature|WalkForward
+    7400056: Armature|Zombie
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|AirHeavy
+      takeName: Armature|AirHeavy
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|AirLight
+      takeName: Armature|AirLight
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|AirMedium
+      takeName: Armature|AirMedium
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|BackThrow
+      takeName: Armature|BackThrow
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchBlock
+      takeName: Armature|CrouchBlock
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchHeavy
+      takeName: Armature|CrouchHeavy
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchHit
+      takeName: Armature|CrouchHit
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchIdle
+      takeName: Armature|CrouchIdle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchLight
+      takeName: Armature|CrouchLight
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchLightf
+      takeName: Armature|CrouchLightf
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CrouchMedium
+      takeName: Armature|CrouchMedium
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ForwardThrow
+      takeName: Armature|ForwardThrow
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Gas
+      takeName: Armature|Gas
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Grab
+      takeName: Armature|Grab
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Grenade
+      takeName: Armature|Grenade
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|HardDown
+      takeName: Armature|HardDown
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Juggle
+      takeName: Armature|Juggle
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jump
+      takeName: Armature|Jump
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Launcher
+      takeName: Armature|Launcher
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|StandBlock
+      takeName: Armature|StandBlock
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|StandHeavy
+      takeName: Armature|StandHeavy
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|StandHit
+      takeName: Armature|StandHit
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|StandLight
+      takeName: Armature|StandLight
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|StandMedium
+      takeName: Armature|StandMedium
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Super
+      takeName: Armature|Super
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WalkBack
+      takeName: Armature|WalkBack
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WalkForward
+      takeName: Armature|WalkForward
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Zombie
+      takeName: Armature|Zombie
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Body
+        weight: 1
+      - path: Armature/Root/Body/Head
+        weight: 1
+      - path: Armature/Root/Body/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Body/Head/Mesh_Model18.005
+        weight: 1
+      - path: Armature/Root/Body/LeftHip
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/LeftAnkle/Mesh_Model18.008
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/LeftKnee/Mesh_Model18.007
+        weight: 1
+      - path: Armature/Root/Body/LeftHip/Mesh_Model18.006
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/LeftWrist/Mesh.009_Model28
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/LeftElbow/Mesh_Model18.002
+        weight: 1
+      - path: Armature/Root/Body/LeftShoulder/Mesh_Model18.001
+        weight: 1
+      - path: Armature/Root/Body/Mesh_Model18
+        weight: 1
+      - path: Armature/Root/Body/RightHip
+        weight: 1
+      - path: Armature/Root/Body/RightHip/Mesh_Model18.009
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/Mesh_Model18.010
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/Mesh_Model18.011
+        weight: 1
+      - path: Armature/Root/Body/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/Mesh_Model18.003
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/Mesh_Model18.004
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/Mesh.003_Model22
+        weight: 1
+      - path: Armature/Root/Body/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
